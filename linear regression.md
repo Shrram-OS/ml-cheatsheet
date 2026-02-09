@@ -77,10 +77,15 @@ $MSE(w) = \frac{1}{n}\sum_{n}^{i=1}(\hat y_i - y_i)^2 = \frac{1}{n}\sum_{n}^{i=1
 
 Ебатория которую не надо читать
 
-$\frac{\partial Q(w, X)}{\partial w}(w) = -2X^T y + 2X^T Xw = 2X^T(Xw - y) = 0 \\
+$$
+\begin{aligned}
+\frac{\partial Q(w, X)}{\partial w}(w) = -2X^T y + 2X^T Xw = 2X^T(Xw - y) = 0 \\
 2X^T Xw - 2X^T y = 0 \\
 X^T Xw = X^T y \\
-w = (X^T X)^{-1} X^T y$
+w = (X^T X)^{-1} X^T y
+\end{aligned}
+$$
+
 
 В общем наша формула весов будет
 
